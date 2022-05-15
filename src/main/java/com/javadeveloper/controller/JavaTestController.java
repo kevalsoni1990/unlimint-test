@@ -67,7 +67,7 @@ public class JavaTestController {
       }
     }
 
-    message = "Please upload a csv and json file only !";
+    message = "Please upload a csv and json files only !";
     return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(new ResponseMessage(message,""));
   }
 
